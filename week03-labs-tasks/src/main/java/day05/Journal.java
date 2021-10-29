@@ -12,8 +12,6 @@ public class Journal {
         if ((name.trim().indexOf(" ") > 0)) {
             names.add(name);
             return true;
-        } else {
-            System.out.println("A név helytelen, nem tartalmaz vezeték és keresztnevet is.");
         }
         return false;
     }
